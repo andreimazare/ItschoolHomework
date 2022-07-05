@@ -15,10 +15,14 @@ export const MainHeader = function () {
             <NavLink to="/about">About</NavLink>
             <NavLink to="/contact">Contact</NavLink>
           </div>
+          <NavLink to="/search">Search</NavLink>
         </div>
         <div className="delivery">
           <h2>
-            Fast and free delivery <i>here</i>
+            Fast and free delivery{" "}
+            <Link to="/products">
+              <i>here</i>
+            </Link>
           </h2>
         </div>
       </nav>
