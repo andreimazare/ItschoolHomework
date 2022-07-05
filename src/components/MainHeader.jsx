@@ -11,19 +11,10 @@ export const MainHeader = function () {
             Logo
           </NavLink>
           <div className="navbar-links">
-            <NavLink to="/products">Products</NavLink>
+            <NavLink to="/home">Home</NavLink>
             <NavLink to="/about">About</NavLink>
             <NavLink to="/contact">Contact</NavLink>
           </div>
-          <NavLink to="/search">Search</NavLink>
-        </div>
-        <div className="delivery">
-          <h2>
-            Fast and free delivery{" "}
-            <Link to="/products">
-              <i>here</i>
-            </Link>
-          </h2>
         </div>
       </nav>
     </>
