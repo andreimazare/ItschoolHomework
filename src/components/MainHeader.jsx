@@ -16,6 +16,11 @@ export const MainHeader = function () {
             <NavLink to="/contact">Contact</NavLink>
           </div>
         </div>
+        <div className="delivery">
+          <h2>
+            Fast and free delivery <i>here</i>
+          </h2>
+        </div>
       </nav>
     </>
   );

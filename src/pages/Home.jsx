@@ -1,4 +1,12 @@
 import "./home.scss";
-export default function () {
-  return <h1>This is my homepage</h1>;
+
+export default function Home() {
+  return (
+    <main>
+      <div className="content-wrapper">
+        <div className="add-content"></div>
+      </div>
+      <div></div>
+    </main>
+  );
 }
